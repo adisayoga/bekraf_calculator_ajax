@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body, button {
+  font-family: "Roboto Mono";
+  font-size: 18px;
+}
+#calculator {
+  margin: 30px auto 0;
+  width: 400px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+header {
+  padding: 1.5em;
+  text-align: right;
+  background-color: indigo;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+header #detail {
+  font-size: .8em;
+}
+header #result {
+  font-size: 2em;
+}
+header #result span {
+  float: left;
+}
+
+#keys {
+  overflow: auto;
+}
+#keys button {
+  font-size: .8em;
+  width: 25%;
+  float: left;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  padding: 1.6em;
+  border-radius: 5px;
+}
+#keys button:hover {
+  background-color: lightGrey;
+}
+#keys button:focus {
+  outline: none;
+}
+#keys button:active {
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, .1);
+}
